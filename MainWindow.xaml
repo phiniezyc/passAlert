@@ -8,6 +8,7 @@
     Welcome to PassAlert!
     <StackPanel Orientation="Vertical">
         <TextBlock Text="Greeting"/>
+        <TextBlock Text="Some Name"/>
     </StackPanel>
 
 </Window>
