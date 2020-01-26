@@ -21,6 +21,12 @@ namespace AvaloniaHelloViewModels.Models
 
     public string Name {
      get {return _name;}
+     set {
+        if(value !=_name) {
+          _name = value;
+          onPropertyChanged();
+        }
+      }
     }
     public event PropertyChangedHandler PropertyChanged;
     protected virtual void onPropertyChanged([CallerMemberName] string propertyName = null)
