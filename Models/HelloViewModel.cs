@@ -3,3 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace AvaloniaHelloViewModels.Models
+{
+  class HelloViewModel : INotifyPropertyChanged
+  {
+
+  }
+}
