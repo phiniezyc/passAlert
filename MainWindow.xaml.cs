@@ -9,6 +9,7 @@ namespace passAlert
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = 
         }
 
         private void InitializeComponent()
