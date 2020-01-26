@@ -2,6 +2,8 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
+using AvaloniaHelloViewModels.Models;
+
 namespace passAlert
 {
     public class MainWindow : Window
@@ -9,7 +11,7 @@ namespace passAlert
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = 
+            this.DataContext = new HelloViewModel();
         }
 
         private void InitializeComponent()
