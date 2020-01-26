@@ -10,7 +10,7 @@ namespace AvaloniaHelloViewModels.Models
 
     protected virtual void onPropertyChanged([CallerMemberName] string propertyName = null)
     {
-      
+      PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 
   }
