@@ -6,7 +6,7 @@
         x:Class="passAlert.MainWindow"
         Title="passAlert">
 
-    <StackPanel Orientation="Vertical">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" MaxWidth="300">
         <TextBlock Text="Greeting"/>
         <TextBlock Text="Some Name"/>
 
