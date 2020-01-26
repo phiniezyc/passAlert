@@ -8,6 +8,10 @@ namespace AvaloniaHelloViewModels.Models
   {
     private string _greeting;
     private string _name;
+
+    public string Greeting {
+      get {return _greeting;}
+    }
     public event PropertyChangedHandler PropertyChanged;
     protected virtual void onPropertyChanged([CallerMemberName] string propertyName = null)
     {
