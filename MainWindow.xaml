@@ -6,7 +6,7 @@
         x:Class="passAlert.MainWindow"
         Title="passAlert">
     Welcome to PassAlert!
-    <StackPanel>
+    <StackPanel Orientation="Vertical">
         <TextBlock Text="Greeting"/>
     </StackPanel>
 
