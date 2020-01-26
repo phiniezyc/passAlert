@@ -5,10 +5,12 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="passAlert.MainWindow"
         Title="passAlert">
-    
+
     <StackPanel Orientation="Vertical">
         <TextBlock Text="Greeting"/>
         <TextBlock Text="Some Name"/>
+
+        <Button Content="What's up!" />
     </StackPanel>
 
 </Window>
