@@ -6,4 +6,8 @@
         x:Class="passAlert.MainWindow"
         Title="passAlert">
     Welcome to PassAlert!
+    <StackPanel>
+
+    </StackPanel>
+
 </Window>
