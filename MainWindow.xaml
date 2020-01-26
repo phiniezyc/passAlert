@@ -8,7 +8,8 @@
 
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
         <TextBlock Text="Greeting"/>
-        <TextBlock Text="Some Name"/>
+        <TextBlock Text="{Binding Greeting}"/>
+         <TextBlock Text="{Binding Name}"/>
 
         <Button Content="What's up!" />
     </StackPanel>
