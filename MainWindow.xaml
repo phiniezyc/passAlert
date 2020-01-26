@@ -7,7 +7,7 @@
         Title="passAlert">
     Welcome to PassAlert!
     <StackPanel>
-
+        <TextBlock Text="Greeting"/>
     </StackPanel>
 
 </Window>
