@@ -6,6 +6,8 @@ namespace AvaloniaHelloViewModels.Models
 {
   class HelloViewModel : INotifyPropertyChanged
   {
+    public event PropertyChangedHandler PropertyChanged;
+    
 
   }
 }
